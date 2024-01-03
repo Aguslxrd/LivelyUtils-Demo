@@ -19,6 +19,7 @@ Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 - Angular
 - SpringBoot
 - Node.js
+- MySql 
 - Nginx (opcional, configurar archivo nginx.conf en el frontend)
 - Docker (opcional)
 
