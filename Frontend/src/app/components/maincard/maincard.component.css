@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../../../assets/img/background-image-setup.jpg');
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    transform: scale(1.1);
+    z-index: -1;
+}
+
+.container-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 1600px;
+    padding: 11rem;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+@keyframes reflect {
+    0% {
+        text-shadow: 0 0 5px rgba(16, 64, 59, 0);
+    }
+    50% {
+        text-shadow: 2px 2px 5px rgba(16, 64, 59, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(16, 64, 59, 0);
+    }
+}
+
+.container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #10403B;
+    margin-bottom: 10px;
+    animation: reflect 5s infinite ease-in-out;
+}
+
+.container p, h3 {
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+    color: rgb(255, 253, 253);
+}
+
+.container h1, p, h3 {
+    margin-top: 20px;
+}
+
+.container .contactus {
+    margin-top: 2rem;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: rgb(204, 202, 202);
+    border-radius: 50px;
+    position: relative;
+    border: 2px solid transparent;
+    background-color: #10403B;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container .contactus:hover {
+    cursor: pointer;
+    background-color: #7e7e7e;
+    transform: scale(1.1);
+}
+
+/* Media Queries for Responsive Design */
+
+/* For screens smaller than 768px */
+@media (max-width: 1000px) {
+  .container-content {
+      padding: 8rem;
+      margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+    .container-content {
+        padding: 8rem;
+        margin-top: 60px;
+    }
+
+    .container h1 {
+        font-size: 2.5rem;
+    }
+
+    .container p, h3 {
+        font-size: 1.2rem;
+    }
+
+    .container .contactus {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 536px) {
+  .container-content {
+      padding: 6rem;
+      margin-top: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-content {
+      padding: 5rem;
+      margin-top: 90px;
+  }
+}
+
+@media (max-width: 496px) {
+  .container .contactus {
+      display: none;
+  }
+}

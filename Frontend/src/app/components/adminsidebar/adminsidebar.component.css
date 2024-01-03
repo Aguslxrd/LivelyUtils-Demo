@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sidebar .logout-btn {
+  margin-top: 1rem;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #464646;
+  display: block;
+  cursor: pointer; 
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    display: block;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+  }
+
+  .sidebar .logo{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #10403B;
+    display: block;
+  }
+
+  .sidebar a {
+    margin-top: 1rem;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #BFBFBF;
+    display: block;
+  }

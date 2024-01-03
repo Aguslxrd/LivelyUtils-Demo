@@ -1,0 +1,12 @@
+<div class="list-container">
+    <div *ngFor="let item of data" class="list-item">
+      <div class="content-wrapper">
+        <a [href]="item.urlVideo" class="link" target="_blank">
+          <img [src]="item.thumbnailUrl" alt="Thumbnail">
+        </a>
+        <p class="idvideo">ID: {{ item.idVideo }}</p>
+        <p class="descripcion">{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+  
