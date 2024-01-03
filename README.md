@@ -2,13 +2,12 @@
 
 Una colección de herramientas para streamers
 
-*LivelyUtils* es un proyecto de código abierto que ofrece una variedad de herramientas diseñadas para facilitar la experiencia de streaming. Este proyecto se destaca por su facilidad de uso y configuración, además de estar construido utilizando las últimas tecnologías disponibles.
 
 ## Características
 
-1. **Discord bot**: Incluye un bot de Discord que proporciona diversas funciones para los streamers, como la reproducción de música, la publicación de anuncios y la capacidad de responder preguntas.
+1. **Discord bot**: Incluye un bot de Discord que proporciona diversas funciones para los streamers.
 
-2. **Frontend**: Una aplicación web que permite a los streamers controlar el bot de Discord y obtener estadísticas detalladas sobre su transmisión.
+2. **Frontend**: Una aplicación web que permite a los streamers visualizar lo que recibe el bot de discord
 
 3. **Backend**: Utiliza Java Spring Boot como backend, proporcionando las funciones básicas necesarias tanto para el bot de Discord como para el frontend.
 
