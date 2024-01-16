@@ -9,7 +9,7 @@ Una colección de herramientas para streamers
 
 2. **Frontend**: Una aplicación web que permite a los streamers visualizar lo que recibe el bot de discord
 
-3. **Backend**: Utiliza Java Spring Boot como backend, proporcionando las funciones básicas necesarias tanto para el bot de Discord como para el frontend.
+3. **Backend**: Utiliza Java Spring como backend (Spring security con jwt y contraseñas encriptadas), proporcionando las funciones básicas necesarias tanto para el bot de Discord como para el frontend.
 
 ## Requisitos
 
