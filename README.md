@@ -1,6 +1,6 @@
 # LivelyUtils
 
-Una colección de herramientas para streamers
+Una colección de herramientas para streamers.
 
 
 ## Características
@@ -23,3 +23,5 @@ Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 - Nginx (opcional, configurar archivo nginx.conf en el frontend)
 - Docker (opcional)
 
+
+Actualmente cuenta con mas caracteristicas como soporte a multiusuarios, panel de administracion de la app, etc.
