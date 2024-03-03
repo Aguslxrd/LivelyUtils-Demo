@@ -24,4 +24,4 @@ Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 - Docker (opcional)
 
 
-Actualmente cuenta con mas caracteristicas como soporte a multiusuarios, panel de administracion de la app, etc.
+Actualmente cuenta con mas caracteristicas como soporte a multiusuarios, servicio para enviar emails desde el backend, panel de administracion de la app, etc.
